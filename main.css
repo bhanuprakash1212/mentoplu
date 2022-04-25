@@ -1,0 +1,96 @@
+body {
+    
+    background: url("s2.jpg")fixed;
+    font-family: sans-serif;
+    margin: 50px;
+    display: grid;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+  
+  }
+  
+  .base-timer {
+    position: relative;
+    width: 70px;
+    height: 70px;
+  }
+  
+  .base-timer__svg {
+    transform: scaleX(-1);
+  }
+  
+  .base-timer__circle {
+    fill: none;
+    stroke: none;
+  }
+  
+  .base-timer__path-elapsed {
+    stroke-width: 7px;
+    stroke: rgb(119, 127, 228);
+  }
+  
+  .base-timer__path-remaining {
+    stroke-width: 7px;
+    stroke-linecap: round;
+    transform: rotate(90deg);
+    transform-origin: center;
+    transition: 1s linear all;
+    fill-rule: nonzero;
+    stroke: currentColor;
+  }
+  
+  .base-timer__path-remaining.green {
+    color: rgb(184, 65, 148);
+  }
+  
+  .base-timer__path-remaining.orange {
+    color: orange;
+  }
+  
+  .base-timer__path-remaining.red {
+    color: red;
+  }
+  
+  .base-timer__label {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+  }
+  .title{
+      text-align: center;
+      font-size: 20;
+      font-weight: bold;
+  }
+  .block{
+      display: inline-block;
+      background-color: rgb(250, 250, 250);
+      text-align: center;
+      font-weight: bold;
+  
+      height: 500px;
+      width: 400px;
+      border-radius: 20px;
+
+  }
+ .b1{
+      text-align: left;
+ }
+ .btn{
+     background-color: rgb(240, 141, 128);
+ }
+ .parent{
+   
+     margin: 1rem;
+     padding: 2rem 2rem;
+    
+ }
+ .block{
+     display: inline-block;
+     border: 1px solid red;
+     padding: 1rem 1rem;
+ }
